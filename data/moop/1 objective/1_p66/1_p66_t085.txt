@@ -1,0 +1,99 @@
+// DO NOT CHANGE THE VERSION INFORMATION
+*TPv1.1*
+
+// ***************************************************************
+// Square-shaped test problem
+// Taken from Chao, I-M., Golden, L., and Wasil, E. A., 1996
+// Written by Michael Schilde, 2006
+// ***************************************************************
+
+// At first, the number of points, scores and constraints used
+// have to be defined. Any number of points, constraints and 
+// scores is possible for the fileloader used. Check the
+// corresponding solver program for specific limitations.
+
+// Scores, coordinates and constraint values can be floating 
+// point values (using a point . as decimal point)
+
+N,66	// Number of points
+S,1		// Number of scores
+C,1		// Number of constraints
+B,0		// Index of the starting point
+E,65	// Index of the terminus point
+
+// Constraints
+// U...upper limit
+// L...lower limit
+// X..maximize
+// I..minimize
+// Type,score#,[value] (-1 = time/distance)
+U,-1,85
+
+// Point indices start with 0: P0
+// Index,x-coord,y-coord,score1,score2,score3,...
+P0,   6.5,  7,  0
+P1,     0,  0, 35
+P2,     2,  0, 35
+P3,     4,  0, 35
+P4,     6,  0, 35
+P5,     8,  0, 35
+P6,    10,  0, 35
+P7,    12,  0, 35
+P8,    14,  0, 35
+P9,     0,  2, 35
+P10,    2,  2, 25
+P11,    4,  2, 25
+P12,    6,  2, 25
+P13,    8,  2, 25
+P14,   10,  2, 25
+P15,   12,  2, 25
+P16,   14,  2, 35
+P17,    0,  4, 35
+P18,    2,  4, 25
+P19,    4,  4, 15
+P20,    6,  4, 15
+P21,    8,  4, 15
+P22,   10,  4, 15
+P23,   12,  4, 25
+P24,   14,  4, 35
+P25,    0,  6, 35
+P26,    2,  6, 25
+P27,    4,  6, 15
+P28,    6,  6,  5
+P29,    8,  6,  5
+P30,   10,  6, 15
+P31,   12,  6, 25
+P32,   14,  6, 35
+P33,    0,  8, 35
+P34,    2,  8, 25
+P35,    4,  8, 15
+P36,    6,  8,  5
+P37,    8,  8,  5
+P38,   10,  8, 15
+P39,   12,  8, 25
+P40,   14,  8, 35
+P41,    0, 10, 35
+P42,    2, 10, 25
+P43,    4, 10, 15
+P44,    6, 10, 15
+P45,    8, 10, 15
+P46,   10, 10, 15
+P47,   12, 10, 25
+P48,   14, 10, 35
+P49,    0, 12, 35
+P50,    2, 12, 25
+P51,    4, 12, 25
+P52,    6, 12, 25
+P53,    8, 12, 25
+P54,   10, 12, 25
+P55,   12, 12, 25
+P56,   14, 12, 35
+P57,    0, 14, 35
+P58,    2, 14, 35
+P59,    4, 14, 35
+P60,    6, 14, 35
+P61,    8, 14, 35
+P62,   10, 14, 35
+P63,   12, 14, 35
+P64,   14, 14, 35
+P65,  7.5,  7,  0

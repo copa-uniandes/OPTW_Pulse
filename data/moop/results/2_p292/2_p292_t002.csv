@@ -1,0 +1,134 @@
+Test instance;Tmax;# runs;# ants;iter. aco;alpha;beta;init. pher. val.;evaporation;granularity;iter. VNS;accept frequency;treshold
+2_p292.txt;2;10;100;100;1;2;10;0,01;0,5;0;1000;0,95;
+
+Run;CPU ACO;CPU VNS;# Tours ACO;# Tours VNS;# Tours PR ACO;# Tours PR VNS;# Tours Total ACO;# Tours Total VNS
+1;1,18382;1,18404;1;4;0;0;1;4;
+2;1,18445;1,18459;1;4;0;0;1;4;
+3;1,19023;1,1903;1;4;0;0;1;4;
+4;1,19393;1,19399;1;4;0;0;1;4;
+5;1,19339;1,19353;1;4;0;0;1;4;
+6;1,18823;1,18824;1;4;0;0;1;4;
+7;1,1955;1,19575;1;4;0;0;1;4;
+8;1,18997;1,18999;1;4;0;0;1;4;
+9;1,2007;1,20094;1;4;0;0;1;4;
+10;1,19709;1,1971;1;4;0;0;1;4;
+
+Run;1
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012001;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000958;129;142;0-202-78-10-0
+;;2;1,93;0,014482;131;121;0-202-78-228-0
+;;3;1,93;0,000407;165;118;0-202-11-10-0
+;;4;1,91;9,5e-05;180;109;0-202-45-0
+
+Run;2
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012102;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000711;129;142;0-202-78-10-0
+;;2;1,93;0,009464;131;121;0-202-78-228-0
+;;3;1,93;0,00039;165;118;0-202-11-10-0
+;;4;1,91;8,9e-05;180;109;0-202-45-0
+
+Run;3
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012157;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,001004;129;142;0-202-78-10-0
+;;2;1,93;0,022305;131;121;0-202-78-228-0
+;;3;1,93;0,000392;165;118;0-202-11-10-0
+;;4;1,91;8,9e-05;180;109;0-202-45-0
+
+Run;4
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012118;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000399;129;142;0-202-78-10-0
+;;2;1,93;0,001525;131;121;0-202-78-228-0
+;;3;1,93;0,000647;165;118;0-202-11-10-0
+;;4;1,91;9,1e-05;180;109;0-202-45-0
+
+Run;5
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012243;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,001533;129;142;0-202-78-10-0
+;;2;1,93;0,004331;131;121;0-202-78-228-0
+;;3;1,93;0,000394;165;118;0-202-11-10-0
+;;4;1,91;9e-05;180;109;0-202-45-0
+
+Run;6
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012111;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000645;129;142;0-202-78-10-0
+;;2;1,93;0,001532;131;121;0-202-78-228-0
+;;3;1,93;0,000363;165;118;0-202-11-10-0
+;;4;1,91;8,9e-05;180;109;0-202-45-0
+
+Run;7
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012176;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000588;129;142;0-202-78-10-0
+;;2;1,93;0,035583;131;121;0-202-78-228-0
+;;3;1,93;0,000837;165;118;0-202-11-10-0
+;;4;1,91;9,1e-05;180;109;0-202-45-0
+
+Run;8
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012102;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000725;129;142;0-202-78-10-0
+;;2;1,93;0,006296;131;121;0-202-78-228-0
+;;3;1,93;0,000476;165;118;0-202-11-10-0
+;;4;1,91;9,3e-05;180;109;0-202-45-0
+
+Run;9
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012117;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000667;129;142;0-202-78-10-0
+;;2;1,93;0,07;131;121;0-202-78-228-0
+;;3;1,93;0,000952;165;118;0-202-11-10-0
+;;4;1,91;9e-05;180;109;0-202-45-0
+
+Run;10
+;Tours ACO
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,91;0,012117;180;109;0-202-45-0
+
+;Tours VNS
+;;Index;Length;Time Of Adding;Score 1;Score2;Path
+;;1;1,93;0,000424;129;142;0-202-78-10-0
+;;2;1,93;0,009688;131;121;0-202-78-228-0
+;;3;1,93;0,0007;165;118;0-202-11-10-0
+;;4;1,91;9,1e-05;180;109;0-202-45-0
