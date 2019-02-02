@@ -17,17 +17,9 @@ public class MainOPTW_pulse {
 		boolean repeat1= false;
 		int first = 205;
 		int last = 205;
-		for (int i = first; i <= last; i++) {
-			
-	
+		for (int i = first; i <= last; i++) { // Launch the experiment many time
 			try {
-				//String configFile = "data/ini/set_64_1_15.ini";
-				
-				//String configFile = "data/ini/cmt_101.ini";
-				//String configFile = "data/ini/tp_1_5.ini";
-				//String configFile = "data/ini/op33_075.ini";
 				String configFile = "data/ini/Solomon_s/R"+ i + ".ini";
-				//String configFile = "data/ini/Cordeau_s/pr"+ i + ".ini";
 				System.out.print(configFile+"/");
 				Settings setup = new Settings(configFile);
 				DH data = new DH(setup);
@@ -45,7 +37,6 @@ public class MainOPTW_pulse {
 				System.out.println("Path time  " +((FinalNode)GM.customers[data.sink]).PathTime);
 				System.out.println("Path  " +((FinalNode)GM.customers[data.sink]).Path);
 				ArrayList<Integer> pathh = ((FinalNode)GM.customers[data.sink]).Path;
-				
 				System.out.println("EXE time " + (System.currentTimeMillis() - tnow) / 1000.0);*/
 			} catch (IOException e) {
 				// catch (IOException e) {
