@@ -15,12 +15,17 @@ public class MainOPTW_pulse {
 
 	public static void main(String[] args) throws GRBException {
 		boolean repeat1= false;
-		int first = 205;
-		int last = 205;
+		int first = 101;
+		int last = 101;
 		for (int i = first; i <= last; i++) { // Launch the experiment many time
 			try {
-				String configFile = "data/ini/Solomon_s/R"+ i + ".ini";
-				System.out.print(configFile+"/");
+				String configFile = null;
+				if( args.length  > 0 ){
+					configFile = args[0];
+				}else{
+					configFile = "data/ini/Solomon_s/R"+ i + ".ini";
+				}
+				System.out.print("Solving: " + configFile+"/");
 				Settings setup = new Settings(configFile);
 				DH data = new DH(setup);
 				data.readInstance();
@@ -45,11 +50,6 @@ public class MainOPTW_pulse {
 			} catch (InterruptedException e) {
 				
 				e.printStackTrace();
-			}
-			if(i== last && !repeat1){
-				System.out.println("_____________________________________________________________");
-				i=first-1;
-				repeat1 = true;
 			}
 		}
 	}
